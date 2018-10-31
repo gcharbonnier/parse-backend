@@ -1,3 +1,6 @@
+#credential for local use
+localConfig.json
+
 # Logs
 logs
 *.log

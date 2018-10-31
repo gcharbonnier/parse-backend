@@ -19,6 +19,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=6.4"
+    "node": ">=8.11",
+    "npm": ">=6.4",
   }
 }

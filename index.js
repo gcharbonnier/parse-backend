@@ -33,7 +33,7 @@ var dashboard = new ParseDashboard({
       "serverURL": process.env.SERVER_URL || localConfig.serverURL,
       "appId": process.env.APP_ID || localConfig.appId,
       "masterKey": process.env.MASTER_KEY || localConfig.masterKey,
-      "appName": localConfig.appName,
+      "appName": "BaaSSample",
     }
   ],
   "users": [

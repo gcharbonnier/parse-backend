@@ -1,0 +1,7 @@
+{
+	"masterKey" : "SetHereYourConfValue",
+	"appId"		: "SetHereYourConfValue",
+	"serverURL"	: "SetHereYourConfValue",
+	"databaseURI"	: "SetHereYourConfValue",
+	"appName" : "SetHereYourConfValue"
+}

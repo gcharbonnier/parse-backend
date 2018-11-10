@@ -23,6 +23,17 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || localConfig.serverURL,
   clientKey : process.env.CLIENT_KEY || localConfig.clientKey,
   restAPIKey : process.env.REST_KEY || localConfig.restAPIKey,
+  push: {
+    android: {
+      apiKey: process.env.FCM_API_KEY || localConfig.fcmApiKey
+    },
+    ios: {
+      pfx: '/file/path/to/XXX.p12',
+      passphrase: '', // optional password to your p12/PFX
+      bundleId: '',
+      production: false
+    }
+  },
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },

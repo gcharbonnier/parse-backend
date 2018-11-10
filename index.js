@@ -26,12 +26,6 @@ var api = new ParseServer({
   push: {
     android: {
       apiKey: process.env.FCM_API_KEY || localConfig.fcmApiKey
-    },
-    ios: {
-      pfx: '/file/path/to/XXX.p12',
-      passphrase: '', // optional password to your p12/PFX
-      bundleId: '',
-      production: false
     }
   },
   liveQuery: {
